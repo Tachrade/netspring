@@ -1,0 +1,118 @@
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    
+    body {}
+    
+    .main {
+        height: 100vh;
+        width: 100%;
+    }
+    
+    .top {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 20px;
+    }
+    
+    .logo>img {
+        height: 60px;
+    }
+    
+    .nav {
+        width: 400px;
+        height: 100%;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 25px;
+    }
+    
+    .nav>a {
+        text-decoration: none;
+        color: black;
+    }
+    
+    .left {}
+    
+    .btn {
+        margin-left: 15px;
+    }
+    
+    .left>a {
+        text-decoration: none;
+        color: black;
+    }
+    
+    .mid {
+        display: flex;
+        flex-direction: row;
+        margin-left: 80px;
+        margin-right: 80px;
+    }
+    
+    .vid {
+        width: 600px;
+        height: 450px;
+    }
+    
+    .left_text {
+        margin-top: 50px;
+    }
+    
+    .big {
+        font-size: 60px;
+    }
+    
+    .small {
+        font-size: 22px;
+    }
+    
+    .btn1 {
+        margin-top: 30px;
+        background: linear-gradient(to right, yellow, #72F0A0);
+        margin-right: 20px;
+        padding: 15px;
+        border-radius: 10%;
+        border: white solid;
+    }
+    
+    .btn2 {
+        margin-top: 30px;
+        padding: 10px;
+        border-radius: 10%;
+        background-color: white;
+        border: none;
+    }
+    
+    .btn {
+        background-color: black;
+        padding: 10px;
+        color: white;
+        border: white solid;
+        border-radius: 12%;
+    }
+    
+    .box {
+        background: url(bg.png);
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        margin-left: 80px;
+        margin-right: 80px;
+        border-radius: 20px;
+        height: 185px;
+        padding: 20px;
+    }
+    
+    .para {
+        color: white;
+        font-size: 25px;
+    }
+    
+    .data>img {
+        width: 350px;
+        height: 180px;
+    }
